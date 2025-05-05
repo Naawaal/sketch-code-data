@@ -1,7 +1,61 @@
-app_version: 2.5.1
-min_supported_version:
-show_ads: Whether to show ads in the app
-- `interstitial_frequency`: How often to show interstitial ads
-- `popular_snippets`: List of popular snippets to highlight
-- `featured_snippets`: List of featured snippets to display on the home screen
-- `categories`: List of snippet categories with their properties
+{
+  "app_version": "2.4.1+12",
+  "min_supported_version": "2.4.1+12",
+  "show_ads": true,
+  "interstitial_frequency": 3,
+  "popular_snippets": [
+    {
+      "type": "java",
+      "id": "snippet_id_1",
+      "title": "RecyclerView Adapter"
+    },
+    {
+      "type": "xml",
+      "id": "snippet_id_2",
+      "title": "Custom Button Layout"
+    },
+    {
+      "type": "class",
+      "id": "snippet_id_3",
+      "title": "Retrofit API Client"
+    }
+  ],
+  "featured_snippets": [
+    {
+      "type": "java",
+      "id": "snippet_id_4",
+      "title": "Room Database Setup"
+    },
+    {
+      "type": "xml",
+      "id": "snippet_id_5",
+      "title": "Material Card Layout"
+    }
+  ],
+  "categories": [
+    {
+      "id": "java_code",
+      "title": "Java Code",
+      "description": "Java code snippets for Android",
+      "icon": "code",
+      "color": "#3498db",
+      "gist_collection": "java_code"
+    },
+    {
+      "id": "java_class",
+      "title": "Java Classes",
+      "description": "Complete Java class implementations",
+      "icon": "java",
+      "color": "#2ecc71",
+      "gist_collection": "java_classes"
+    },
+    {
+      "id": "xml",
+      "title": "XML Snippets",
+      "description": "XML layouts and resources",
+      "icon": "code_file",
+      "color": "#e74c3c",
+      "gist_collection": "xml_snippets"
+    }
+  ]
+}
