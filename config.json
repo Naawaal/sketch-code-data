@@ -1,1 +1,7 @@
-
+app_version: 2.5.1
+min_supported_version:
+show_ads: Whether to show ads in the app
+- `interstitial_frequency`: How often to show interstitial ads
+- `popular_snippets`: List of popular snippets to highlight
+- `featured_snippets`: List of featured snippets to display on the home screen
+- `categories`: List of snippet categories with their properties
