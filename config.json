@@ -1,6 +1,6 @@
 {
-  "app_version": "2.4.1+12",
-  "min_supported_version": "2.4.1+12",
+  "app_version": "1.0.0",
+  "min_supported_version": "1.0.0",
   "show_ads": true,
   "interstitial_frequency": 3,
   "popular_snippets": [
@@ -12,12 +12,12 @@
     {
       "type": "xml",
       "id": "snippet_id_2",
-      "title": "Custom Button Layout"
+      "title": "Rounded Button with Shadow"
     },
     {
       "type": "class",
       "id": "snippet_id_3",
-      "title": "Retrofit API Client"
+      "title": "SQLite Database Helper"
     }
   ],
   "featured_snippets": [
