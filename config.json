@@ -1,7 +1,7 @@
 {
   "app_version": "1.0.0",
   "min_supported_version": "1.0.0",
-  "show_ads": true,
+  "show_ads": false,
   "interstitial_frequency": 3,
   "popular_snippets": [
     {
